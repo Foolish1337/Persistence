@@ -1,5 +1,5 @@
 # Persistence
-Persistence using NT kernel calls 
+Persistence using syscalls 
 
 Gains current user security ID (SID) and uses this (\Registry\USER\[SID]\Software\Microsoft\Windows\CurrentVersion\Run) directory to set a new run key for persistence.
 
